@@ -36,3 +36,6 @@ document.querySelectorAll('.menu a').forEach(link => {
         document.querySelector('.menu').classList.remove('active');
     });
 });
+
+// INICIAR O AOS 
+AOS.init();
